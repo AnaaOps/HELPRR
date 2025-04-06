@@ -1,0 +1,33 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #5d7bd5;
+  --secondary-color: #75dbcd;
+  
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #ebc2ff;
+  --bg-accent: #a385e5;
+  
+  /* Text Colors */
+  --text-primary: #333333;
+  --text-secondary: #5d7bd5;
+  --text-light: #ffffff;
+  
+  /* Accent Colors */
+  --accent-light: #c2ffec;
+  --accent-dark: #5d7bd5;
+  
+  /* Gradient */
+  --primary-gradient: linear-gradient(135deg, #5d7bd5, #75dbcd);
+  --secondary-gradient: linear-gradient(135deg, #ebc2ff, #a385e5);
+  
+  /* Other */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

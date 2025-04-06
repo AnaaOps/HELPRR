@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="beautyPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="1" fill="#9370DB" opacity="0.2" />
+      <circle cx="10" cy="10" r="1" fill="#9370DB" opacity="0.15" />
+      <circle cx="40" cy="40" r="1" fill="#9370DB" opacity="0.15" />
+      <circle cx="10" cy="40" r="1" fill="#9370DB" opacity="0.15" />
+      <circle cx="40" cy="10" r="1" fill="#9370DB" opacity="0.15" />
+    </pattern>
+    
+    <linearGradient id="beautyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8a5c2" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#9370DB" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main translucent background -->
+  <rect width="400" height="300" fill="url(#beautyPattern)" opacity="0.3" />
+  <rect width="400" height="300" fill="url(#beautyGradient)" opacity="0.5" />
+  
+  <!-- Beauty icons -->
+  <g opacity="0.7" transform="translate(20, 50)">
+    <!-- Hairdryer -->
+    <path d="M60,30 C60,23.4 54.6,18 48,18 L30,18 L30,42 L48,42 C54.6,42 60,36.6 60,30 Z" fill="#f8a5c2" opacity="0.6" />
+    <path d="M24,12 L24,48 L30,48 L30,12 L24,12 Z" fill="#f8a5c2" opacity="0.6" />
+    <path d="M12,24 C12,21.8 13.8,20 16,20 L24,20 L24,40 L16,40 C13.8,40 12,38.2 12,36 L12,24 Z" fill="#f8a5c2" opacity="0.6" />
+  </g>
+  
+  <g opacity="0.7" transform="translate(130, 60)">
+    <!-- Makeup brush -->
+    <path d="M30,10 C30,4.5 25.5,0 20,0 C14.5,0 10,4.5 10,10 L10,50 C10,55.5 14.5,60 20,60 C25.5,60 30,55.5 30,50 L30,10 Z" fill="#D8BFD8" opacity="0.6" />
+    <path d="M20,60 L20,100" stroke="#D8BFD8" stroke-width="10" stroke-linecap="round" opacity="0.6" />
+  </g>
+  
+  <g opacity="0.7" transform="translate(220, 70)">
+    <!-- Perfume bottle -->
+    <rect x="20" y="10" width="40" height="20" rx="5" ry="5" fill="#B19CD9" opacity="0.6" />
+    <rect x="15" y="30" width="50" height="80" rx="10" ry="10" fill="#B19CD9" opacity="0.6" />
+    <circle cx="40" cy="10" r="5" fill="#B19CD9" opacity="0.6" />
+  </g>
+  
+  <g opacity="0.7" transform="translate(320, 50)">
+    <!-- Comb -->
+    <rect x="10" y="10" width="40" height="100" rx="5" ry="5" fill="#DDA0DD" opacity="0.6" />
+    <rect x="10" y="20" width="40" height="5" fill="white" opacity="0.3" />
+    <rect x="10" y="35" width="40" height="5" fill="white" opacity="0.3" />
+    <rect x="10" y="50" width="40" height="5" fill="white" opacity="0.3" />
+    <rect x="10" y="65" width="40" height="5" fill="white" opacity="0.3" />
+    <rect x="10" y="80" width="40" height="5" fill="white" opacity="0.3" />
+    <rect x="10" y="95" width="40" height="5" fill="white" opacity="0.3" />
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="270" r="15" fill="#f8a5c2" opacity="0.2" />
+  <circle cx="350" cy="50" r="20" fill="#B19CD9" opacity="0.2" />
+  <circle cx="150" cy="200" r="25" fill="#DDA0DD" opacity="0.2" />
+  <circle cx="270" cy="230" r="18" fill="#f8a5c2" opacity="0.2" />
+</svg> 

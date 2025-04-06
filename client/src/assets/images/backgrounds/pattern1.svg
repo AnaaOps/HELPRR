@@ -1,0 +1,53 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Bubble pattern -->
+    <pattern id="bubblePattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="8" fill="rgba(147, 112, 219, 0.1)" />
+      <circle cx="40" cy="30" r="15" fill="rgba(147, 112, 219, 0.08)" />
+      <circle cx="70" cy="60" r="10" fill="rgba(147, 112, 219, 0.12)" />
+      <circle cx="90" cy="20" r="18" fill="rgba(147, 112, 219, 0.06)" />
+      <circle cx="20" cy="80" r="12" fill="rgba(147, 112, 219, 0.1)" />
+      <circle cx="60" cy="90" r="20" fill="rgba(147, 112, 219, 0.05)" />
+    </pattern>
+    
+    <!-- Cleaning tool icons -->
+    <g id="bucket">
+      <path d="M5 3H15V8C15 8 12 10 10 10C8 10 5 8 5 8V3Z" fill="rgba(147, 112, 219, 0.2)" />
+      <circle cx="8" cy="2" r="1" fill="rgba(147, 112, 219, 0.2)" />
+      <circle cx="12" cy="4" r="1" fill="rgba(147, 112, 219, 0.2)" />
+    </g>
+    
+    <g id="spray">
+      <path d="M5 2H8V5C8 5 6.5 6 6.5 7V10H5V7C5 6 3.5 5 3.5 5V2H5Z" fill="rgba(147, 112, 219, 0.2)" />
+      <path d="M5.5 2V0.5C5.5 0 6 0 6.5 0C7 0 7.5 0 7.5 0.5V2H5.5Z" fill="rgba(147, 112, 219, 0.2)" />
+    </g>
+    
+    <g id="vacuum">
+      <path d="M8 2L10 0V2H8Z" fill="rgba(147, 112, 219, 0.2)" />
+      <circle cx="6" cy="6" r="4" fill="rgba(147, 112, 219, 0.2)" />
+    </g>
+    
+    <g id="mop">
+      <rect x="5" y="0" width="1" height="8" fill="rgba(147, 112, 219, 0.2)" />
+      <path d="M3 8H8L7 10H4L3 8Z" fill="rgba(147, 112, 219, 0.2)" />
+      <path d="M2 10H9L8 12H3L2 10Z" fill="rgba(147, 112, 219, 0.2)" />
+    </g>
+    
+    <g id="sponge">
+      <rect x="2" y="3" width="8" height="5" rx="1" fill="rgba(147, 112, 219, 0.2)" />
+    </g>
+    
+    <!-- Use patterns to create the background -->
+    <pattern id="cleaningPattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect width="200" height="200" fill="url(#bubblePattern)" />
+      <use href="#bucket" x="20" y="30" transform="scale(2)" />
+      <use href="#spray" x="140" y="60" transform="scale(3)" />
+      <use href="#vacuum" x="60" y="140" transform="scale(3)" />
+      <use href="#mop" x="150" y="120" transform="scale(2)" />
+      <use href="#sponge" x="40" y="100" transform="scale(2.5)" />
+    </pattern>
+  </defs>
+  
+  <!-- Main translucent pattern -->
+  <rect width="1000" height="1000" fill="url(#cleaningPattern)" />
+</svg> 
